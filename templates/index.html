@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>メモ・ToDoアプリ</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 メモ・ToDo</h1>
+
+    <form id="task-form">
+      <input type="text" id="title" placeholder="タイトル（必須）" required />
+      <textarea id="content" placeholder="メモ内容（任意）"></textarea>
+      <button type="submit">追加する</button>
+    </form>
+
+    <p id="error-message" class="error"></p>
+
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
