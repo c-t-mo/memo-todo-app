@@ -81,7 +81,8 @@ docker run -p 5000:5000 memo-todo-app
 
 ## 動作画面
 
-（ここにスクリーンショットを貼り付けてください。例：`docker compose up --build` 後にブラウザでアクセスした画面のキャプチャ）
+<img width="416" height="326" alt="スクリーンショット 2026-08-03 183447" src="https://github.com/user-attachments/assets/cd33f7a7-2ac5-448a-b059-fd136db8b29e" />
+
 
 ## ライセンス
 
